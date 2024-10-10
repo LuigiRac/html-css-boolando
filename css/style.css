@@ -6,9 +6,9 @@
     box-sizing: border-box;
 }
 
- .debug {
+ /* .debug {
     border: 1px solid red;
-}  
+}   */
 
 ul {
     list-style: none;
@@ -58,6 +58,12 @@ a {
 .col {
     width: calc((100% - 10px) / 3);
     position: relative;
+}
+
+.col:hover .heart {
+    color: red;
+    
+
 }
 
 .col img {
@@ -110,11 +116,18 @@ header img {
     left: 332px;
     font-size: 30px;
     padding: 10px 20px;
-
-
-
 }
 
+.col img.retro {
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    display: none;
+}
+
+.col:hover .retro {
+    display: block;
+}
 /* Footer */
 
 
