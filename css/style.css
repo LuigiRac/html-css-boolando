@@ -1,0 +1,78 @@
+/* generals */
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug {
+    border: 1px solid red;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    padding: 5pxpx;
+}
+body {
+    font-family: 'whitney', 'helvetica neue', Arial, Helvetica, sans-serif;
+    background-color: white;
+    color:black;
+    font-size: 15px;
+}
+
+a {
+    color: white;
+}
+
+
+
+/* flex utilitiy */
+.d-flex {
+    display: flex;
+}
+
+.between-header{
+    justify-content: space-between;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.align-items {
+    align-items: center;
+}
+/* Header */
+header {
+    background-color: #FC6900;
+    width: 100%;
+}
+
+header img {
+    width: 120px;
+    height: 30px;
+}
+
+
+
+/* Main */
+
+
+/* Footer */
+
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+/* position utility */
