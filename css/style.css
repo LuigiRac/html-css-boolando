@@ -8,7 +8,7 @@
 
 .debug {
     border: 1px solid red;
-}
+} 
 
 ul {
     list-style: none;
@@ -19,7 +19,7 @@ a {
 }
 
 li {
-    padding: 5pxpx;
+    padding: 5px;
 }
 body {
     font-family: 'whitney', 'helvetica neue', Arial, Helvetica, sans-serif;
@@ -32,6 +32,9 @@ a {
     color: white;
 }
 
+img {
+    width: 100%;
+}
 
 
 /* flex utilitiy */
@@ -39,7 +42,7 @@ a {
     display: flex;
 }
 
-.between-header{
+.between-cont{
     justify-content: space-between;
 }
 .container {
@@ -51,6 +54,16 @@ a {
 .align-items {
     align-items: center;
 }
+
+.row {
+    display: flex;
+    gap: 5px;
+}
+.col {
+    width: calc((100% - 10px) / 3);
+}
+
+ 
 /* Header */
 header {
     background-color: #FC6900;
