@@ -32,11 +32,6 @@ a {
     color: white;
 }
 
-img {
-    width: 100%;
-}
-
-
 /* flex utilitiy */
 .d-flex {
     display: flex;
@@ -58,9 +53,16 @@ img {
 .row {
     display: flex;
     gap: 5px;
+    flex-wrap: wrap;
 }
 .col {
     width: calc((100% - 10px) / 3);
+    position: relative;
+}
+
+.col img {
+    width: 100%;
+    display: block;
 }
 
  
@@ -78,7 +80,11 @@ header img {
 
 
 /* Main */
-
+.discount {
+    position: absolute;
+    top: 90%;
+    left: 10px;
+}
 
 /* Footer */
 
