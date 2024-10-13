@@ -86,10 +86,11 @@ header img {
 
 
 
+
 /* Main */
 .discount {
     position: absolute;
-    top: 90%;
+    top: 80%;
     left: 0px;
     background-color: red;
     color: white;
@@ -98,7 +99,7 @@ header img {
 
 .sostenibility {
     position: absolute;
-    top: 90%;
+    top: 80%;
     left: 62px;
     background-color: green;
     color: white;
@@ -129,6 +130,28 @@ header img {
 .col:hover .retro {
     display: block;
 }
+
+.info {
+    padding-bottom: 15px;
+}
+
+.info > span {
+    font-size: 14px;
+}
+
+.price {
+    text-decoration: line-through;
+}
+
+.sale {
+    color: red;
+}
+
+.no-padding {
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
 /* Footer */
 
 footer {
@@ -144,13 +167,15 @@ footer {
 .no-container {
     max-width: none; 
     margin: 0 auto;
-    padding: 20px 10px;
+    padding: 0px;
 }
 
 h2 {
     padding-bottom: 10px;
-    font-size: 15px;
+    font-size: 15px; 
+    padding-left: 5px;
 }
+
 
 
 /* position utility */
